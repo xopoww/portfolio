@@ -1,0 +1,44 @@
+@import "./base.css";
+
+#app {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 0 0.5em;
+
+  font-weight: normal;
+}
+
+.cmd {
+  color: var(--color-cmd-text);
+}
+
+.folder {
+  color: var(--color-cmd-cyan);
+  font-weight: 600;
+}
+
+.delay {
+  opacity: 0%;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  99% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.cursor {
+  border-right: .15em solid var(--color-cmd-text);
+  animation: blink-caret .75s step-end infinite;
+  /* margin-left: 0.5em; */
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--color-cmd-text) }
+}

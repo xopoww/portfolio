@@ -8,6 +8,12 @@ server {
     location / {
         root   /usr/share/nginx/html;
         index  index.html index.htm;
+        try_files $uri /index.html;
+
+        include mime.types;
+        types {
+            application/x-javascript js ts;
+        }
     }
 
     #error_page  404              /404.html;
