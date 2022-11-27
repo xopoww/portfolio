@@ -21,7 +21,6 @@ import TypedText from "../components/TypedText.vue";
     <TerminalButton href="/blog" class="folder"> blog/ </TerminalButton> <br />
     <TerminalButton href="/projects" class="folder"> projects/ </TerminalButton>
     <br />
-    <span>hello-world.txt</span> <br />
   </span>
 
   <CommandStyle delay="4.1s" />
