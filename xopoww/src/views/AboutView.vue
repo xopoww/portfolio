@@ -11,15 +11,15 @@ import TypedText from "../components/TypedText.vue";
   <span class="delay" style="animation-duration: 1.6s">
     <span class="md-heading"># Arseny Khoroshilov</span><br />
     <br />
-    I'm 24 y.o. software developer. My main interest is web developement, but I
+    I'm 25 y.o. software developer. My main interest is web developement, but I
     also sometimes peek into programming language design, game dev and other
     topics. <br />
     <br />
     My nickname (<span class="md-i">xopoww</span>) is a stylization of a
-    fragment of my last name. It's pronounced "<span class="md-i">khorosh</span
+    fragment of my last name.<br />It's pronounced "<span class="md-i">khorosh</span
     >".<br />
     <br />
-    If you wish to contact me, you can write an email to [](<a
+    If you wish to contact me, you can send me [an email](<a
       class="md-link"
       href="mailto:arseny@xopoww.com"
       >mailto:arseny@xopoww.com</a

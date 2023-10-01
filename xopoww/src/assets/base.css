@@ -24,7 +24,8 @@
 :root {
   --color-cmd-text: #dddddd;
   --color-cmd-green: #56d364;
-  --color-cmd-cyan: #79c0ff;
+  --color-cmd-lblue: #79c0ff;
+  --color-cmd-cyan: #27d6f5;
 }
 
 /* semantic color variables for this project */

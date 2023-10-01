@@ -12,7 +12,7 @@
   color: var(--color-cmd-green);
 }
 .pwd {
-  color: var(--color-cmd-cyan);
+  color: var(--color-cmd-lblue);
 }
 
 .out {

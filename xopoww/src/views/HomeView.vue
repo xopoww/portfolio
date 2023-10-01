@@ -13,13 +13,16 @@ import TypedText from "../components/TypedText.vue";
   </span>
 
   <CommandStyle delay="2.1s" />
-  <TypedText text="ls -1d */" class="cmd" :delay="2.5" :duration="1.5" /><br />
+  <TypedText text="ls -1" class="cmd" :delay="2.5" :duration="1.5" /><br />
 
   <span class="delay" style="animation-duration: 4.1s">
     <TerminalButton href="/about" class="folder"> about/ </TerminalButton>
     <br />
-    <TerminalButton href="/blog" class="folder"> blog/ </TerminalButton> <br />
     <TerminalButton href="/projects" class="folder"> projects/ </TerminalButton>
+    <br />
+    <TerminalButton href="https://github.com/xopoww" class="symlink">
+      github
+    </TerminalButton>
     <br />
   </span>
 

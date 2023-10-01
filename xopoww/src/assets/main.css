@@ -13,6 +13,11 @@
 }
 
 .folder {
+  color: var(--color-cmd-lblue);
+  font-weight: 600;
+}
+
+.symlink {
   color: var(--color-cmd-cyan);
   font-weight: 600;
 }
