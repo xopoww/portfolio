@@ -24,6 +24,8 @@ import TypedText from "../components/TypedText.vue";
       github
     </TerminalButton>
     <br />
+    hello-world.txt
+    <br />
   </span>
 
   <CommandStyle delay="4.1s" />
